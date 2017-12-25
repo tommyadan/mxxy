@@ -16,10 +16,12 @@ README
 * dom4j 用于解析.xml 格式文件
 
 ## 部分截图
-* 主页面
-![](https://github.com/zhouaobo/mxxy/raw/master/projectImage/home.png)  
+* 游戏页面
+![](https://github.com/zhouaobo/mxxy/raw/master/projectIv/image1.JPG) 
+*
+![](https://github.com/zhouaobo/mxxy/raw/master/projectIv/image2.JPG) 
 
-
-
+## 鸣谢
+梦想的奴隶
 
 
