@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panel id="CreateRole" x="0" y="0" width="806" height="600"  transparency="0.8">
+	<!-- 人族 -->
+	<ImageComponentButton buttonname="0001" x="320" y="78" path="/wzife/login/photo/create/1.tcp" actionId="createPlayer"/>
+ 	<ImageComponentButton buttonname="0002" x="400" y="78" path="/wzife/login/photo/create/2.tcp" actionId="createPlayer"/>
+	<ImageComponentButton buttonname="0003" x="480" y="78" path="/wzife/login/photo/create/3.tcp" actionId="createPlayer"/>
+	<ImageComponentButton buttonname="0004" x="560" y="78" path="/wzife/login/photo/create/4.tcp" actionId="createPlayer"/>
+ 	<!-- 魔族 -->
+	<ImageComponentButton buttonname="0005" x="320" y="158" path="/wzife/login/photo/create/5.tcp" actionId="createPlayer"/>
+	<ImageComponentButton buttonname="0006" x="400" y="158" path="/wzife/login/photo/create/6.tcp" actionId="createPlayer"/>
+	<ImageComponentButton buttonname="0007" x="480" y="158" path="/wzife/login/photo/create/7.tcp" actionId="createPlayer"/>
+	<ImageComponentButton buttonname="0008" x="560" y="158" path="/wzife/login/photo/create/8.tcp" actionId="createPlayer"/>
+	<!--仙族 -->
+	<ImageComponentButton buttonname="0009" x="320" y="238" path="/wzife/login/photo/create/9.tcp" actionId="createPlayer"/>
+	<ImageComponentButton buttonname="0010" x="400" y="238" path="/wzife/login/photo/create/10.tcp" actionId="createPlayer"/>
+	<ImageComponentButton buttonname="0011" x="480" y="238" path="/wzife/login/photo/create/11.tcp" actionId="createPlayer"/>
+	<ImageComponentButton buttonname="0012" x="560" y="238" path="/wzife/login/photo/create/12.tcp" actionId="createPlayer"/>  
+	<Sprite x="110" y="422"  spritename="player"/>
+	<Sprite  x="70"  y="75" spritename="characterIndex"/>
+	<Sprite  x="50"  y="90" isImageIcon="true" width="200" height="233" path="componentsRes/createimage/selectperson.png" spritename="selectperson"/>
+	<Sprite x="283" y="480" spritename="playerDesc"/>
+	<Sprite x="400" y="10"  path="/wzife/login/createrole.tcp"/>
+	<Sprite x="650" y="90"  path="/wzife/login/race.tcp"/>
+	<Sprite x="40"  y="380" path="/wzife/login/inputname.tcp"/>
+	<Sprite x="280" y="463" path="/wzife/login/dlgroleinfo.tcp"/>
+	<Sprite x="280" y="50"  path="/wzife/login/create_background.tcp"></Sprite>
+	<ImageComponentButton buttonname="changeColor" x="46" y="500" path="/wzife/login/color.tcp" actionId="changeColor"/>  
+	<ImageComponentButton buttonname="down" x="530" y="523" path="/wzife/button/down.tcp"/>  
+	<ImageComponentButton buttonname="up" x="530" y="465" path="/wzife/button/down.tcp"/>  
+	<ImageComponentButton buttonname="scrollblock" x="531" y="486" path="/wzife/button/scrollblock.tcp"/> 
+	<ImageComponentButton buttonname="stand" x="80" y="515" path="/wzife/login/change1.tcp" actionId="changeState"/>  
+	<ImageComponentButton buttonname="walk" x="118" y="515" path="/wzife/login/change2.tcp" actionId="changeState"/>  
+	<ImageComponentButton buttonname="attack" x="156" y="515" path="/wzife/login/change3.tcp" actionId="changeState"/> 
+	<ImageComponentButton buttonname="down" x="280" y="430" path="/wzife/login/btnroleinfo.tcp"/>  
+	<ImageComponentButton buttonname="up" x="354" y="430" path="/wzife/login/btnroleweapon.tcp"/>  
+	<ImageComponentButton buttonname="scrollblock" x="428" y="430" path="/wzife/login/btnrolefaction.tcp"/> 
+	<ImageComponentButton buttonname="mount" text="坐骑" x="198" y="518" path="/wzife/button/turnbtn.tcp" actionId="changeDirection"/> 
+	<!--上一步 -->
+	<ImageComponentButton x="650"  y="465" width="110" height="41" paths="componentsRes/loginbutton/back.png" buttonname="back" actionId="back"/>
+	<!--下一步 -->
+	<ImageComponentButton x="650"  y="510" width="110" height="41" paths="componentsRes/loginbutton/next.png" buttonname="next" actionId="next"/>
+</panel>

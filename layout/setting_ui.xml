@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panel id="SettingsPage" width="380" height="379" x="219" y="111" isReightClose="true" move="true">
+	<Sprite x="0" y="0" path="/wzife/dialog/setting.tcp"></Sprite>
+	<ImageComponentButton buttonname="exit" x="280" y="300" path="/wzife/button/longbtn.tcp" text ="退出游戏" actionId="exit"/>
+	<ImageComponentButton buttonname="restartGame" x="180" y="300" path="/wzife/button/longbtn.tcp" text ="回到主菜单" actionId="restartGame"/>
+	<ImageComponentButton buttonname="saveSetting" x="80" y="300" path="/wzife/button/longbtn.tcp" text ="保存设置" actionId="saveSetting"/>
+	<ImageComponentButton buttonname="closer" x="358" y="3" path="/wzife/button/closebtn.tcp" actionId="close"/>
+	
+	<CheckBox x="5"  y="30"  width="28"  height="28"   defaultIcon="componentsRes/checkbox_selected.png"   selectIcon="componentsRes/checkbox_unchecked.png" compontname="windows"/>
+	<CheckBox x="205"  y="30"  width="28"  height="28"   defaultIcon="componentsRes/checkbox_selected.png"   selectIcon="componentsRes/checkbox_unchecked.png" compontname="2"/>
+	<CheckBox x="5"  y="60"  width="28"  height="28"   defaultIcon="componentsRes/checkbox_selected.png"   selectIcon="componentsRes/checkbox_unchecked.png" compontname="3"/>
+	<CheckBox x="205"  y="60"  width="28"  height="28"   defaultIcon="componentsRes/checkbox_selected.png"   selectIcon="componentsRes/checkbox_unchecked.png" compontname="4"/>
+	<CheckBox x="5"  y="90"  width="28"  height="28"   defaultIcon="componentsRes/checkbox_selected.png"   selectIcon="componentsRes/checkbox_unchecked.png" compontname="music"/>
+	<CheckBox x="205"  y="90"  width="28"  height="28"   defaultIcon="componentsRes/checkbox_selected.png"   selectIcon="componentsRes/checkbox_unchecked.png" compontname="6"/>
+</panel>

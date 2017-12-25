@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panel id="BattlePanelCmd" x="666" y="98" width="63" height="190" move="true" >
+	<Sprite  x="41"  y="0" isImageIcon="true" width="22" height="20" path="componentsRes/tts.png" ></Sprite>
+	<Sprite  x="0"  y="19" isImageIcon="true" width="63" height="170" path="componentsRes/battle_background.png" spritename="registerbackground"/> 
+  	<!-- 法术 -->
+    <ImageComponentButton buttonname="warmagic" x="3" y="22" path="/wzife/button/warmagic.tcp" actionId="warmagic"/>
+    <!-- 道具 -->
+	<ImageComponentButton buttonname="waritem" x="3" y="45" path="/wzife/button/waritem.tcp" actionId="waritem" />
+	<!-- 防御 -->
+	<ImageComponentButton buttonname="wardefend" x="3" y="68" path="/wzife/button/wardefend.tcp" actionId="wardefend" />
+	<!-- 召唤 -->
+	 <ImageComponentButton buttonname="warcall" x="3" y="91" path="/wzife/button/warcall.tcp" actionId="warcall" />
+	<!-- 保护 -->
+	<ImageComponentButton buttonname="warprotect" x="3" y="114" path="/wzife/button/warprotect.tcp" actionId="warprotect"/>
+	<!-- 捕捉 -->
+	<ImageComponentButton buttonname="warcatch" x="3" y="137" path="/wzife/button/warcatch.tcp" actionId="warcatch"/>
+	<!-- 逃跑 -->
+	<ImageComponentButton buttonname="warrunaway" x="3" y="160" path="/wzife/button/warrunaway.tcp" actionId="warrunaway"/> 
+</panel>

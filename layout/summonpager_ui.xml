@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panel id="SummonPager" width="281" height="460" x="5" y="85" isReightClose="true" move="true">
+    <Sprite spritename="petLevel" text="100" x="180" y="145" width="30" height="18" actionId="" color="black"/>
+    <Sprite spritename="petName"  x="53" y="195" width="130" height="17" actionId="" color="black"/>
+    <Sprite spritename="petHp" text="10/10" x="53" y="217" width="80" height="14" actionId="" color="black"/>
+    <Sprite spritename="petMagic" text="10/10" x="53" y="242" width="80" height="14" actionId="" color="black"/>
+    <Sprite spritename="petAttack" text="10" x="53" y="267" width="80" height="13" actionId="" color="black"/>
+    <Sprite spritename="petDfe" text="10" x="53" y="292" width="80" height="12" actionId="" color="black"/>
+    <Sprite spritename="petSpeed" text="10" x="53" y="315" width="80" height="15" actionId="" color="black"/>
+    <Sprite spritename="petMana" text="10" x="53" y="342" width="80" height="9" actionId="" color="black"/>
+    <Sprite spritename="petTz" text="100" x="182" y="216" width="40" height="16" actionId="" color="black"/>
+    <Sprite spritename="text法力" text="100" x="183" y="241" width="40" height="16" actionId="" color="black"/>
+    <Sprite spritename="text力量" text="100" x="183" y="264" width="40" height="16" actionId="" color="black"/>
+    <Sprite spritename="text耐力" text="100" x="183" y="288" width="40" height="16" actionId="" color="black"/>
+    <Sprite spritename="text敏捷" text="100" x="183" y="312" width="40" height="16" actionId="" color="black"/>
+    <Sprite spritename="text潜能" text="100" x="182" y="337" width="40" height="16" actionId="" color="black"/>
+    <Sprite spritename="text经验" text="1002309" x="85" y="358" width="80" height="20" actionId="" color="black"/>
+    <Sprite spritename="text忠诚" text="100" x="53" y="408" width="30" height="14" actionId="" color="black"/>
+    
+    <!-- 携带数量 -->
+    <Sprite id="" spritename="number" x="79" y="169" width="45" height="20" />
+    <Sprite id="" spritename="text携带等级" x="210" y="168" width="40" height="20" text="0"/>
+    <Sprite spritename="textLevelExp" text="2352309" x="85" y="383" width="80" height="18" actionId=""  color="black"/>
+    <ImageComponentButton buttonname=""  x="226" y="145" text="参战" path="/wzife/button/smallbtn.tcp"/>
+
+     <!-- 体质 -->
+    <ImageComponentButton buttonname="+physique" x="228" y="218" path="/wzife/button/add.tcp"/>
+    <ImageComponentButton buttonname="-physique" x="248" y="218" enable="false" path="/wzife/button/sub.tcp"/>
+    <!-- 魔力 -->
+    <ImageComponentButton buttonname="+magic" x="228" y="241" path="/wzife/button/add.tcp"/>
+    <ImageComponentButton buttonname="-magic"  x="248" y="241" enable="false" path="/wzife/button/sub.tcp"/>
+    <!-- 力量 -->
+    <ImageComponentButton buttonname="+strength"  x="228" y="264" path="/wzife/button/add.tcp"/>
+    <ImageComponentButton buttonname="-strength"  x="248" y="264" enable="false" path="/wzife/button/sub.tcp"/>
+    <!-- 耐力  -->
+    <ImageComponentButton buttonname="+durability"  x="228" y="288" path="/wzife/button/add.tcp"/>
+    <ImageComponentButton buttonname="-durability"  x="248" y="288" enable="false" path="/wzife/button/sub.tcp"/>
+    <!-- 敏捷  -->
+    <ImageComponentButton buttonname="+agility"  x="228" y="312" path="/wzife/button/add.tcp"/>
+    <ImageComponentButton buttonname="-agility"  x="248" y="312" enable="false" path="/wzife/button/sub.tcp"/>
+    <ImageComponentButton buttonname=""  x="90" y="408" text="驯养" path="/wzife/button/smallbtn.tcp"/>
+    <ImageComponentButton buttonname=""  x="20" y="430" text="观看" path="/wzife/button/smallbtn.tcp"/>
+    <ImageComponentButton buttonname=""  x="90" y="430" text="放生" path="/wzife/button/smallbtn.tcp"/>
+    <ImageComponentButton buttonname=""  x="190" y="190" text="更改名称" path="/wzife/button/longbtn.tcp"/>
+    <ImageComponentButton buttonname=""  x="180" y="360" text="确认加点" path="/wzife/button/longbtn.tcp"/>
+    <ImageComponentButton buttonname="SummonAttrbute"  x="180" y="420" text="查看属性" path="/wzife/button/leftbutton.tcp" actionId="seeAttrbute"/>
+    
+	<ImageComponentButton id="" x="258" y="5"  actionId="close" path="/wzife/button/closebtn.tcp"/>
+	<Sprite x="0" y="0" width="281" height="460" path="/wzife/dialog/summon.tcp"/>
+
+</panel>
