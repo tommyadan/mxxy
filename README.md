@@ -16,7 +16,8 @@ README
 * dom4j 用于解析.xml 格式文件
 
 ## 部分截图
-![](https://github.com/zhouaobo/mxxy/raw/master/componentsRes/input.png)  
+* 主页面
+![](https://github.com/zhouaobo/mxxy/raw/master/projectImage/home.png)  
 
 
 
