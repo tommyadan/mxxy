@@ -22,6 +22,11 @@ README
 ![](https://github.com/zhouaobo/mxxy/raw/master/projectIv/image2.JPG) 
 
 ## 鸣谢
-梦想的奴隶
+梦想的奴隶,LGame
+
+## 
+Have seen here, give a star?（都看到这儿了，何不给个...，哎，别走啊，star还没...）
+
+
 
 
