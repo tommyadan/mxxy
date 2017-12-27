@@ -21,6 +21,9 @@ README
 *
 ![](https://github.com/zhouaobo/mxxy/raw/master/projectIv/image2.JPG) 
 
+## 程序入口
+SwingApplication
+
 ## 鸣谢
 梦想的奴隶,LGame
 
